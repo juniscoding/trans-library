@@ -16,4 +16,7 @@ export default defineNuxtConfig({
   modules: ['@nuxthub/core'],
   css: ['~/assets/css/main.css'],
   vite: {    plugins: [      tailwindcss(),    ],  },
+  hub: {
+    database: true
+  }
 })
